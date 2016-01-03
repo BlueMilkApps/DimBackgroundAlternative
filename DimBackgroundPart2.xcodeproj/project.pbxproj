@@ -14,6 +14,7 @@
 		D69374A41C39506B002A0FBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D69374A21C39506B002A0FBE /* LaunchScreen.storyboard */; };
 		D69374AF1C39506B002A0FBE /* DimBackgroundPart2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69374AE1C39506B002A0FBE /* DimBackgroundPart2Tests.swift */; };
 		D69374BA1C39506B002A0FBE /* DimBackgroundPart2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69374B91C39506B002A0FBE /* DimBackgroundPart2UITests.swift */; };
+		D69374C81C39731A002A0FBE /* Dimmable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69374C71C39731A002A0FBE /* Dimmable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		D69374B51C39506B002A0FBE /* DimBackgroundPart2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DimBackgroundPart2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D69374B91C39506B002A0FBE /* DimBackgroundPart2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DimBackgroundPart2UITests.swift; sourceTree = "<group>"; };
 		D69374BB1C39506B002A0FBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D69374C71C39731A002A0FBE /* Dimmable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dimmable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				D69374991C39506B002A0FBE /* AppDelegate.swift */,
 				D693749B1C39506B002A0FBE /* ViewController.swift */,
+				D69374C71C39731A002A0FBE /* Dimmable.swift */,
 				D693749D1C39506B002A0FBE /* Main.storyboard */,
 				D69374A01C39506B002A0FBE /* Assets.xcassets */,
 				D69374A21C39506B002A0FBE /* LaunchScreen.storyboard */,
@@ -258,6 +261,7 @@
 			files = (
 				D693749C1C39506B002A0FBE /* ViewController.swift in Sources */,
 				D693749A1C39506B002A0FBE /* AppDelegate.swift in Sources */,
+				D69374C81C39731A002A0FBE /* Dimmable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
